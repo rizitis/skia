@@ -1,4 +1,4 @@
-```
+
 Whether you need libdng_sdk.a, libpathkit.a, libpiex.a, libskcms.a, and libwuffs.a depends on your specific use case with Skia. Here's a brief explanation of what each of these libraries is typically used for:
 
     libdng_sdk.a:
@@ -20,4 +20,4 @@ Whether you need libdng_sdk.a, libpathkit.a, libpiex.a, libskcms.a, and libwuffs
     libwuffs.a:
         Purpose: Wuffs is a library for decoding and encoding image formats like PNG, JPEG, and more. It's a performant library for handling image formats.
         Need: If your application requires decoding/encoding of various image formats and relies on Wuffs, you’ll need this library. Otherwise, it might not be necessary.
-```
+
